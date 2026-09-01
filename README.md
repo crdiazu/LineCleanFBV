@@ -12,7 +12,7 @@ El objetivo de esta etapa es que usted pueda navegar por ellas, interactuar con 
 
 Haga clic en los enlaces a continuación para ver cada una de las opciones en vivo:
 
-### 1. [Propuesta Industrial](https://crdiazu.github.io/LineCleanFBV/Industrial/)
+### 1. [Propuesta Industrial (Impacto)](https://crdiazu.github.io/LineCleanFBV/Impacto/)
 **Concepto:** Un panel de control de seguridad industrial.
 *Ideal si busca transmitir máxima seguridad, cumplimiento de normativas, certificaciones y un enfoque técnico y riguroso.*
 
