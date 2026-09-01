@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LineClean FBV — Impacto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <div class="split-layout">
+
+    <!-- TOP NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__brand">Line <span>Clean</span></div>
+      <div class="navbar__right">
+        <div class="navbar__services">Limpieza de Fachadas • Mantención Industrial</div>
+        <a href="https://wa.me/56912345678" target="_blank" class="navbar__contact whatsapp">
+          <i class="ph-fill ph-whatsapp-logo"></i> +56 9 1234 5678
+        </a>
+        <a href="#" class="navbar__btn">Solicitar Visita</a>
+      </div>
+    </nav>
+    
+    <!-- VISUAL PANEL (Right Side - fixed background) -->
+    <div class="visual-panel">
+      <!-- Background images that will fade in/out -->
+      <img src="img/hero.jpg" class="visual-panel__bg active" alt="Persona subiendo">
+      <img src="img/servicio-mantencion.jpg" class="visual-panel__bg" alt="Trabajo en terreno">
+    </div>
+
+    <!-- CONTENT PANEL (Left Side - scrolls) -->
+    <div class="content-panel">
+      
+      <!-- Remove old header since we have a top navbar now -->
+      <!-- Section 0: Hero -->
+      <section class="scroll-section hero" data-bg="0">
+        <span class="hero__tag">Expertos en</span>
+        <h1 class="hero__title">Trabajos<br><span>En Altura</span></h1>
+        <h2 class="hero__subtitle">Y LUGARES DE DIFÍCIL ACCESO</h2>
+        
+        <div class="divider">
+          Seguridad <span>•</span> Experiencia <span>•</span> Precisión
+        </div>
+        
+        <p class="hero__desc">
+          Soluciones en altura, donde otros <strong>NO LLEGAN</strong>. Certificados bajo normativas internacionales para minería, industria y construcción.
+        </p>
+      </section>
+
+      <!-- Section 1: Features (Moved to the right side) -->
+      <section class="scroll-section features-section" data-bg="1">
+        <div class="features-grid">
+          
+          <div class="feature-card fade-in-right">
+            <div class="feature__icon-wrapper">
+              <i class="ph-fill ph-person-simple-throw feature__icon"></i>
+            </div>
+            <div class="feature__content">
+              <h3 class="feature__title">TRABAJOS EN ALTURA</h3>
+              <p class="feature__desc">Equipos certificados y protocolos de <strong>seguridad</strong> mundial.</p>
+            </div>
+          </div>
+
+          <div class="feature-card fade-in-right delay-1">
+            <div class="feature__icon-wrapper">
+              <i class="ph-fill ph-mountains feature__icon"></i>
+            </div>
+            <div class="feature__content">
+              <h3 class="feature__title">ACCESO POR CUERDAS</h3>
+              <p class="feature__desc">Soluciones eficientes en lugares de difícil acceso.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section 2: Trust & Certification -->
+      <section class="scroll-section features-section" data-bg="1">
+        <div class="features-grid">
+          
+          <div class="feature-card fade-in-right">
+            <div class="feature__icon-wrapper">
+              <i class="ph-fill ph-shield-check feature__icon"></i>
+            </div>
+            <div class="feature__content">
+              <h3 class="feature__title">PERSONAL CAPACITADO</h3>
+              <p class="feature__desc">Técnicos certificados para cada desafío industrial.</p>
+            </div>
+          </div>
+
+          <div class="feature-card fade-in-right delay-1">
+            <div class="feature__icon-wrapper">
+              <i class="ph-fill ph-gear-six feature__icon"></i>
+            </div>
+            <div class="feature__content">
+              <h3 class="feature__title">CONFIANZA INDUSTRIAL</h3>
+              <p class="feature__desc">Minería, energía, petroquímica y construcción.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script>
+    // Intersection Observer to handle background fade transitions on scroll
+    document.addEventListener("DOMContentLoaded", () => {
+      const bgs = document.querySelectorAll('.visual-panel__bg');
+      const sections = document.querySelectorAll('.scroll-section');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Add animation class to cards
+            const cards = entry.target.querySelectorAll('.feature-card');
+            cards.forEach(card => card.classList.add('animate'));
+
+            // Background logic
+            let bgIndex = parseInt(entry.target.getAttribute('data-bg'));
+            if(bgIndex >= bgs.length) bgIndex = bgs.length - 1;
+            
+            bgs.forEach((bg, index) => {
+              if (index === bgIndex) {
+                bg.classList.add('active');
+              } else {
+                bg.classList.remove('active');
+              }
+            });
+          }
+        });
+      }, {
+        threshold: 0.4
+      });
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>
+</body>
+</html>

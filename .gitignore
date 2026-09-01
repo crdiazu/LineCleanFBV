@@ -1,0 +1,24 @@
+# .gitignore
+# Node / npm
+node_modules/
+package-lock.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backups and logs
+backup_*/
+*.log
+
+# Firebase
+.firebase/
+.firebase/**
+
+# Obsidian vault metadata
+.obsidian/

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Limpieza Especializada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0284c7',
+                        secondary: '#10b981'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        .hero-gradient {
+            background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.95) 50%, rgba(255,255,255,0) 100%);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-['Pacifico'] text-primary">logo</span>
+                    <div class="hidden md:flex items-center space-x-8 ml-10">
+                        <a href="#inicio" class="text-gray-700 hover:text-primary">Inicio</a>
+                        <a href="#servicios" class="text-gray-700 hover:text-primary">Servicios</a>
+                        <a href="#tecnologias" class="text-gray-700 hover:text-primary">Tecnologías</a>
+                        <a href="#contacto" class="text-gray-700 hover:text-primary">Contacto</a>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap cursor-pointer">
+                        Solicitar Presupuesto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="relative min-h-screen pt-16 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://public.readdy.ai/ai/img_res/c198db33bd8182ae95b99042865d0e3a.jpg" class="w-full h-full object-cover" alt="Limpieza profesional">
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32">
+            <div class="hero-gradient p-12 rounded-lg max-w-2xl">
+                <h1 class="text-5xl font-bold text-gray-900 mb-6">Servicios Profesionales de Limpieza Especializada</h1>
+                <p class="text-xl text-gray-700 mb-8">Expertos en limpieza de altura y mantenimiento industrial con los más altos estándares de seguridad y calidad.</p>
+                <button class="bg-primary text-white px-8 py-4 !rounded-button text-lg hover:bg-primary/90 transition-colors whitespace-nowrap cursor-pointer">
+                    Conoce Nuestros Servicios
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+                        <i class="ri-building-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Limpieza de Vidrios en Altura</h3>
+                    <p class="text-gray-600 mb-6">Servicio especializado para edificios de gran altura con personal certificado y equipos de última generación.</p>
+                    <button class="text-primary hover:text-primary/80 font-semibold cursor-pointer">Más información →</button>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+                        <i class="ri-sun-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Limpieza de Paneles Solares</h3>
+                    <p class="text-gray-600 mb-6">Mantenimiento especializado para optimizar la eficiencia de sus paneles solares con métodos no abrasivos.</p>
+                    <button class="text-primary hover:text-primary/80 font-semibold cursor-pointer">Más información →</button>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+                        <i class="ri-home-gear-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Mantenimiento de Fachadas</h3>
+                    <p class="text-gray-600 mb-6">Restauración y limpieza profesional de fachadas para mantener la estética y valor de su propiedad.</p>
+                    <button class="text-primary hover:text-primary/80 font-semibold cursor-pointer">Más información →</button>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+                        <i class="ri-tools-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Limpieza de Estructuras Delicadas</h3>
+                    <p class="text-gray-600 mb-6">Cuidado especializado para superficies que requieren atención particular y técnicas específicas.</p>
+                    <button class="text-primary hover:text-primary/80 font-semibold cursor-pointer">Más información →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Tecnologías y Métodos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <img src="https://public.readdy.ai/ai/img_res/93d0b4ff1642ea2a6f8d68cb15c2763b.jpg" class="w-full h-64 object-cover rounded-lg mb-6" alt="Equipos especializados">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Equipos de Acceso Especializado</h3>
+                    <p class="text-gray-600">Utilizamos equipos de última generación para garantizar la seguridad y eficiencia en trabajos de altura.</p>
+                </div>
+
+                <div class="text-center">
+                    <img src="https://public.readdy.ai/ai/img_res/00ed0d4f85d16c50f48c5f9cc53b32a4.jpg" class="w-full h-64 object-cover rounded-lg mb-6" alt="Productos ecológicos">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Productos Ecológicos</h3>
+                    <p class="text-gray-600">Comprometidos con el medio ambiente, utilizamos productos biodegradables y seguros.</p>
+                </div>
+
+                <div class="text-center">
+                    <img src="https://public.readdy.ai/ai/img_res/7f99ce48d4df8e4fd5b461dc1c99287f.jpg" class="w-full h-64 object-cover rounded-lg mb-6" alt="Certificaciones">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Certificaciones</h3>
+                    <p class="text-gray-600">Nuestro equipo cuenta con todas las certificaciones necesarias para trabajos en altura.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-8">Contáctenos</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Nombre completo</label>
+                            <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Correo electrónico</label>
+                            <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Mensaje</label>
+                            <textarea class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary h-32" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap cursor-pointer">
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+                <div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Información de contacto</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full">
+                                    <i class="ri-phone-line text-primary"></i>
+                                </div>
+                                <span class="ml-4 text-gray-600">+34 900 123 456</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full">
+                                    <i class="ri-mail-line text-primary"></i>
+                                </div>
+                                <span class="ml-4 text-gray-600">contacto@empresa.es</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full">
+                                    <i class="ri-map-pin-line text-primary"></i>
+                                </div>
+                                <span class="ml-4 text-gray-600">Calle Principal 123, Madrid, España</span>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <img src="https://public.readdy.ai/gen_page/map_placeholder_1280x720.png" class="w-full h-48 object-cover rounded-lg" alt="Ubicación">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <span class="text-2xl font-['Pacifico'] text-white">logo</span>
+                    <p class="mt-4 text-gray-400">Expertos en servicios de limpieza especializada desde 2010.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Enlaces rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#inicio" class="text-gray-400 hover:text-white">Inicio</a></li>
+                        <li><a href="#servicios" class="text-gray-400 hover:text-white">Servicios</a></li>
+                        <li><a href="#tecnologias" class="text-gray-400 hover:text-white">Tecnologías</a></li>
+                        <li><a href="#contacto" class="text-gray-400 hover:text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Certificaciones</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">ISO 9001:2015</li>
+                        <li class="text-gray-400">ISO 14001:2015</li>
+                        <li class="text-gray-400">OHSAS 18001</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Síguenos</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="ri-facebook-fill text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="ri-twitter-fill text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="ri-instagram-fill text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="ri-linkedin-fill text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2025 Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('form');
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const formData = new FormData(form);
+                const data = Object.fromEntries(formData);
+                
+                const successMessage = document.createElement('div');
+                successMessage.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg';
+                successMessage.textContent = '¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.';
+                
+                document.body.appendChild(successMessage);
+                form.reset();
+                
+                setTimeout(() => {
+                    successMessage.remove();
+                }, 3000);
+            });
+        });
+    </script>
+</body>
+</html>

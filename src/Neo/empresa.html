@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa — LineClean FBV | Ingeniería en Altura</title>
+  <meta name="description" content="Conoce LineClean FBV: empresa chilena especializada en trabajos en altura, con 10+ años de experiencia, personal certificado y estándares internacionales de seguridad.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+<!--
+THESIS: La página de empresa se lee como la placa de identificación de una faena certificada: quiénes somos, valores como rótulos de seguridad y método de trabajo como pasos de procedimiento. Rechaza el texto corporativo genérico.
+OWN-WORLD: papel #F4F4F0, tinta #0B0B0B, amarillo seguridad #FFC400, azul #002B5B. Franjas hazard, bordes 3px, sombra dura 0-blur, etiquetas en comillas rectas. Display Big Shoulders Display, cuerpo Archivo, mono Fragment Mono.
+STORY: El visitante confía porque reconoce el lenguaje de certificación y prevención de riesgos de su propia industria, y entiende el método en pasos.
+FIRST VIEWPORT: Marquee hazard; page-hero azul "INGENIERÍA EN ALTURA"; bloque quiénes somos con foto en marco y checklist de certificación.
+FORM: Rotulación Industrial, candidato 5 de la lista fundamentada; seed key 310b777a.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+
+  <!-- MARQUEE HAZARD -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>TRABAJOS EN ALTURA</span><span>PERSONAL CERTIFICADO</span><span>PREVENCIÓN DE RIESGOS</span><span>LÍNEAS DE VIDA</span><span>REDES Y MALLAS</span><span>CONTROL DE PLAGAS</span><span>PRESUPUESTO GRATUITO RM</span>
+      <span>TRABAJOS EN ALTURA</span><span>PERSONAL CERTIFICADO</span><span>PREVENCIÓN DE RIESGOS</span><span>LÍNEAS DE VIDA</span><span>REDES Y MALLAS</span><span>CONTROL DE PLAGAS</span><span>PRESUPUESTO GRATUITO RM</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.png" alt="LineClean FBV logo" class="header__logo-img">
+        <span class="header__logo-text">LineClean<span>FBV</span></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a href="index.html" class="nav__link">Inicio</a>
+        <a href="servicios.html" class="nav__link">Servicios</a>
+        <a href="empresa.html" class="nav__link">Empresa</a>
+        <a href="proyectos.html" class="nav__link">Proyectos</a>
+        <a href="contacto.html" class="nav__link nav__link--cta">Contacto</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO PÁGINA -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-hero__breadcrumb"><a href="index.html">Inicio</a> / Empresa</p>
+      <h1 class="page-hero__title">Ingeniería en <span class="accent">altura</span></h1>
+      <p class="page-hero__text">Trabajos en estructuras o lugares físicos elevados, con la técnica de los trabajos verticales. Una labor llevada a cabo por personal especializado, calificado y certificado.</p>
+    </div>
+  </section>
+
+  <!-- QUIÉNES SOMOS -->
+  <section class="section">
+    <div class="container about-grid">
+      <img src="img/empresa.jpg" alt="Equipo LineClean FBV trabajando en altura" class="about-grid__img reveal">
+      <div class="reveal">
+        <span class="label">Quiénes somos</span>
+        <h2 class="about-grid__title">Expertos en trabajos <span class="accent">verticales</span></h2>
+        <p>Line Clean FBV es una empresa chilena especializada en trabajos en altura. Contamos con más de 10 años de experiencia en el rubro, entregando soluciones seguras, eficientes y de calidad para edificios residenciales, comerciales e industriales.</p>
+        <p>Utilizamos la técnica de los trabajos verticales (acceso por cuerdas) que nos permite intervenir estructuras de difícil acceso de manera rápida, económica y con mínima interferencia para los ocupantes del edificio.</p>
+        <p>Todo nuestro personal está certificado bajo estándares internacionales (IRATA/ACTA) y contamos con un sistema de gestión de prevención de riesgos que garantiza un entorno de trabajo seguro en cada proyecto.</p>
+        <ul class="checklist">
+          <li>Personal 100% certificado y capacitado</li>
+          <li>Certificación bajo normas internacionales</li>
+          <li>Prevención de riesgos en cada faena</li>
+          <li>Presupuesto gratuito en la región metropolitana</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALORES -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section__head section__head--center">
+        <span class="label label--dark">Nuestros valores</span>
+        <h2 class="section__title">Lo que nos <span class="accent">distingue</span></h2>
+      </div>
+      <div class="valores">
+        <div class="valor reveal">
+          <svg class="valor__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          <h3 class="valor__title">Seguridad</h3>
+          <p class="valor__text">La seguridad de nuestro equipo y la de nuestros clientes es lo primero, en cada proyecto.</p>
+        </div>
+        <div class="valor reveal">
+          <svg class="valor__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+          <h3 class="valor__title">Calidad</h3>
+          <p class="valor__text">Soluciones 100% personalizadas que cumplen los más altos estándares de calidad.</p>
+        </div>
+        <div class="valor reveal">
+          <svg class="valor__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <h3 class="valor__title">Eficiencia</h3>
+          <p class="valor__text">Técnica de trabajos verticales: intervención rápida y económica, sin andamios ni interferencias.</p>
+        </div>
+        <div class="valor reveal">
+          <svg class="valor__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <h3 class="valor__title">Confianza</h3>
+          <p class="valor__text">Transparencia, cumplimiento de plazos y comunicación permanente con nuestros clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUESTRO MÉTODO -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <span class="label">Estándar de calidad para todos nuestros proyectos</span>
+        <h2 class="section__title">Nuestro <span class="accent">método de trabajo</span></h2>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card__num">PASO 01</span>
+          <img src="img/inspeccion.png" alt="Inspección de estructuras" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Estudio de la estructura</h3>
+            <p class="card__text">Realizamos un estudio previo de las estructuras para llevar a cabo un trabajo coherente y acorde a la problemática de cada edificación.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">PASO 02</span>
+          <img src="img/capacitacion-1.jpg" alt="Capacitación del personal" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Planificación de seguridad</h3>
+            <p class="card__text">Evaluamos todos los riesgos asociados al proyecto y definimos los equipos de protección personal necesarios según las normas vigentes.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">PASO 03</span>
+          <img src="img/equipo.png" alt="Ejecución del proyecto" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Ejecución y capacitación</h3>
+            <p class="card__text">Ejecutamos la faena con personal certificado y capacitamos al cliente para que pueda maniobrar los elementos instalados con total seguridad.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="container cta__inner">
+      <div>
+        <h2 class="section__title">¿Tienes un proyecto en <span class="accent">altura?</span></h2>
+        <p class="section__sub">Conversemos. Te asesoramos sin costo y te entregamos una propuesta a la medida.</p>
+      </div>
+      <a href="contacto.html" class="btn btn--primary btn--lg">Hablemos</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <a href="index.html" class="header__logo">
+          <img src="img/logo.png" alt="LineClean FBV" class="header__logo-img">
+          <span class="header__logo-text">LineClean<span>FBV</span></span>
+        </a>
+        <p class="footer__text">Trabajos en estructuras o lugares físicos elevados, con la técnica de los trabajos verticales, llevados a cabo por personal especializado, calificado y certificado.</p>
+        <a href="https://goo.gl/maps/1CU7Tr6pctN4cTNZ8" target="_blank" rel="noopener" class="footer__reviews">★ Google Reviews</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Compañía</h4>
+        <a href="index.html" class="footer__link">Trabajos en Altura</a>
+        <a href="servicios.html" class="footer__link">Servicios</a>
+        <a href="empresa.html" class="footer__link">Ingeniería en Altura</a>
+        <a href="contacto.html" class="footer__link">Contacto</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Contacto</h4>
+        <p class="footer__text">Atendemos en Santiago y regiones.</p>
+        <a href="tel:+56994175680" class="footer__link">+56 9 9417 5680</a>
+        <a href="mailto:linecleanchile@gmail.com" class="footer__link">linecleanchile@gmail.com</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Sitios de interés</h4>
+        <a href="http://www.actachile.cl" target="_blank" rel="noopener" class="footer__link">Asociación Chilena de Trabajos en Altura</a>
+        <a href="http://www.ist.cl" target="_blank" rel="noopener" class="footer__link">Instituto de Seguridad del Trabajo</a>
+        <a href="http://www.sence.cl" target="_blank" rel="noopener" class="footer__link">SENCE</a>
+        <a href="http://www.isl.gob.cl" target="_blank" rel="noopener" class="footer__link">Instituto de Seguridad Laboral</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">© <span id="year"></span> LineClean FBV. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <a href="https://api.whatsapp.com/send?phone=56994175680&text=Bienvenido%20a%20LineClean%2C%20%C2%BFEn%20qu%C3%A9%20te%20podemos%20ayudar" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+

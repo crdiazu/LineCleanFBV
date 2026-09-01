@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LineClean FBV — Trabajos en Altura | Ingeniería Vertical</title>
+  <meta name="description" content="LineClean FBV: expertos en trabajos en altura en Chile. Líneas de vida, redes y mallas, control de plagas, diagnóstico de estructuras, instalación y mantenimiento. Personal certificado y seguro.">
+  <meta name="keywords" content="trabajos en altura, líneas de vida, redes y mallas, control de plagas, diagnóstico estructuras, trabajos verticales, Santiago, Chile">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Archivo:wght@400;500;600;700&family=Fragment+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+</head>
+<body>
+<!--
+THESIS: El sitio de LineClean FBV se lee como un edificio certificado: la señalética de seguridad industrial (rotulación) es el sistema completo, no un texto corporativo. Rechaza el hero azul con tarjetas redondeadas.
+OWN-WORLD: papel #F4F4F0, tinta #0B0B0B, amarillo seguridad #FFC400, azul #002B5B. Franjas hazard diagonales, etiquetas zip-tie, rótulos en comillas rectas, placas esténcil, sombra dura 0-blur, bordes 3px. Display Big Shoulders Display, cuerpo Archivo, mono Fragment Mono.
+STORY: El visitante reconoce el lenguaje de seguridad de su propia obra o edificio, entiende en segundos que esto es trabajo vertical certificado, lee los servicios como rótulos y llama a cotizar por WhatsApp.
+FIRST VIEWPORT: Marquee hazard a sangre; header papel con logo y nav; hero con display gigante "TRABAJOS EN ALTURA" con tachado hazard, rótulo entre comillas, foto real en marco negro con tag colgante "CERTIFICADO · PREVENCIÓN DE RIESGOS", botón WhatsApp amarillo con sombra dura como acción primaria.
+FORM: Rotulación Industrial, candidato 5 de la lista fundamentada; seed key 310b777a.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+
+  <!-- MARQUEE HAZARD -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>TRABAJOS EN ALTURA</span><span>PERSONAL CERTIFICADO</span><span>PREVENCIÓN DE RIESGOS</span><span>LÍNEAS DE VIDA</span><span>REDES Y MALLAS</span><span>CONTROL DE PLAGAS</span><span>PRESUPUESTO GRATUITO RM</span>
+      <span>TRABAJOS EN ALTURA</span><span>PERSONAL CERTIFICADO</span><span>PREVENCIÓN DE RIESGOS</span><span>LÍNEAS DE VIDA</span><span>REDES Y MALLAS</span><span>CONTROL DE PLAGAS</span><span>PRESUPUESTO GRATUITO RM</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="assets/img/logo.png" alt="LineClean FBV logo" class="header__logo-img">
+        <span class="header__logo-text">LineClean<span>FBV</span></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a href="index.html" class="nav__link">Inicio</a>
+        <a href="servicios.html" class="nav__link">Servicios</a>
+        <a href="empresa.html" class="nav__link">Empresa</a>
+        <a href="proyectos.html" class="nav__link">Proyectos</a>
+        <a href="contacto.html" class="nav__link nav__link--cta">Contacto</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="label hero__label">Trabajos verticales certificados</span>
+        <h1 class="hero__title">
+          Trabajos<br>en <span class="strike">altura</span><br><span class="accent">seguros</span>
+        </h1>
+        <p class="hero__text">Trabajos en estructuras o lugares físicos elevados, con la técnica de los trabajos verticales. Una labor llevada a cabo por personal especializado, calificado y certificado.</p>
+        <div class="hero__actions">
+          <a href="https://api.whatsapp.com/send?phone=56994175680&text=Bienvenido%20a%20LineClean%2C%20%C2%BFEn%20qu%C3%A9%20te%20podemos%20ayudar" class="btn btn--whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Cotizar por WhatsApp
+          </a>
+          <a href="servicios.html" class="btn btn--outline">Ver servicios</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__frame">
+          <img src="assets/img/hero.jpg" alt="Trabajador LineClean FBV realizando trabajos verticales en altura">
+        </div>
+        <div class="hero__tag">Certificado · Prevención de riesgos</div>
+        <div class="hero__stripe" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section__head">
+        <span class="label">Servicios</span>
+        <h2 class="section__title">Nuestros <span class="accent">servicios</span></h2>
+        <p class="section__sub">Nuestros servicios y soluciones abarcan desde el diagnóstico de estructuras en altura, pasando por reparaciones, mantenimiento, equipamiento, limpieza e instalación eléctrica y luminaria, entre otros. Soluciones 100% personalizadas que cumplen los más altos estándares de calidad y seguridad.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="card__num">SERVICIO 01</span>
+          <img src="assets/img/servicio-consultoria.jpg" alt="Consultoría técnica" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Consultoría técnica</h3>
+            <p class="card__text">Asesoramiento especializado y soluciones personalizadas para optimizar procesos y garantizar el cumplimiento normativo.</p>
+            <a href="servicios.html" class="card__link">Saber más →</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="card__num">SERVICIO 02</span>
+          <img src="assets/img/servicio-lineas-vida.png" alt="Líneas anti-caídas" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Líneas anti-caídas y anclajes</h3>
+            <p class="card__text">Instalación de sistemas de seguridad esenciales que proporcionan protección contra caídas para distintos proyectos en altura, según normativa chilena.</p>
+            <a href="servicios.html" class="card__link">Saber más →</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="card__num">SERVICIO 03</span>
+          <img src="assets/img/servicio-redes-mallas.png" alt="Redes y mallas" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Redes y mallas</h3>
+            <p class="card__text">Instalación de redes y mallas para asegurar áreas de trabajo en altura, brindando protección contra caídas de objetos y creando un entorno seguro.</p>
+            <a href="servicios.html" class="card__link">Saber más →</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="card__num">SERVICIO 04</span>
+          <img src="assets/img/servicio-plagas.jpg" alt="Control de plagas" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Control de plagas</h3>
+            <p class="card__text">Instalación de equipamiento en áreas elevadas para impedir el acceso de plagas como palomas, murciélagos e insectos voladores.</p>
+            <a href="servicios.html" class="card__link">Saber más →</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="card__num">SERVICIO 05</span>
+          <img src="assets/img/servicio-diagnostico.jpg" alt="Diagnóstico de estructuras" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Diagnóstico de estructuras</h3>
+            <p class="card__text">Inspección e identificación de factores ocultos críticos y posibles riesgos para evaluar el estado de las estructuras y recomendar medidas preventivas.</p>
+            <a href="servicios.html" class="card__link">Saber más →</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="card__num">SERVICIO 06</span>
+          <img src="assets/img/servicio-mantencion.jpg" alt="Instalación y mantenimiento" class="card__img">
+          <div class="card__body">
+            <h3 class="card__title">Instalación y mantenimiento</h3>
+            <p class="card__text">Instalación y mantención segura de fachadas y exteriores de edificios o construcciones en altura y todos sus componentes.</p>
+            <a href="servicios.html" class="card__link">Saber más →</a>
+          </div>
+        </article>
+      </div>
+      <div class="section__cta">
+        <a href="servicios.html" class="btn btn--outline">Ver todos los servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section section--dark" id="proceso">
+    <div class="container">
+      <div class="section__head">
+        <span class="label label--dark">Estándar de calidad</span>
+        <h2 class="section__title">¿Cómo abordamos <span class="accent">tu proyecto?</span></h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <h3 class="feature__title">Certificación Internacional</h3>
+          <p class="feature__text">Nos basamos en estándares de normativas internacionales, haciendo nuestro trabajo más eficiente.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          <h3 class="feature__title">Prevención de Riesgos</h3>
+          <p class="feature__text">Garantizamos un entorno seguro para nuestros trabajadores y el ecosistema donde trabajaremos.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          <h3 class="feature__title">Inspección de Estructuras</h3>
+          <p class="feature__text">Realizamos un estudio previo de las estructuras para llevar a cabo un trabajo coherente y acorde a la problemática.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+          <h3 class="feature__title">Evaluación de Riesgos</h3>
+          <p class="feature__text">Evaluamos todos los riesgos asociados al proyecto para garantizar la seguridad de los operarios en el lugar intervenido.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <h3 class="feature__title">Equipos de Protección Personal</h3>
+          <p class="feature__text">Contamos con el equipo necesario para abordar los proyectos en altura según las normas vigentes.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <h3 class="feature__title">Capacitación en Seguridad</h3>
+          <p class="feature__text">Capacitamos al cliente con los conocimientos necesarios para maniobrar los elementos instalados por Line Clean.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="container cta__inner">
+      <div>
+        <h2 class="section__title">Solicita <span class="accent">información</span></h2>
+        <p class="section__sub">Nuestro equipo altamente capacitado está listo para brindarte soluciones especializadas que garantizan seguridad, eficiencia y calidad en cada proyecto. No importa el tamaño o complejidad, estamos preparados para abordarlo con profesionalismo.</p>
+      </div>
+      <a href="contacto.html" class="btn btn--primary btn--lg">Contáctanos hoy mismo</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <a href="index.html" class="header__logo">
+          <img src="assets/img/logo.png" alt="LineClean FBV" class="header__logo-img">
+          <span class="header__logo-text">LineClean<span>FBV</span></span>
+        </a>
+        <p class="footer__text">Trabajos en estructuras o lugares físicos elevados, con la técnica de los trabajos verticales, llevados a cabo por personal especializado, calificado y certificado.</p>
+        <a href="https://goo.gl/maps/1CU7Tr6pctN4cTNZ8" target="_blank" rel="noopener" class="footer__reviews">★ Google Reviews</a>
+        <p class="footer__text">Presupuesto gratuito dentro de la región metropolitana.</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Compañía</h4>
+        <a href="index.html" class="footer__link">Trabajos en Altura</a>
+        <a href="servicios.html" class="footer__link">Servicios</a>
+        <a href="empresa.html" class="footer__link">Ingeniería en Altura</a>
+        <a href="contacto.html" class="footer__link">Contacto</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Contacto</h4>
+        <p class="footer__text">Atendemos en Santiago y regiones.</p>
+        <a href="tel:+56994175680" class="footer__link">+56 9 9417 5680</a>
+        <a href="mailto:linecleanchile@gmail.com" class="footer__link">linecleanchile@gmail.com</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Sitios de interés</h4>
+        <a href="http://www.actachile.cl" target="_blank" rel="noopener" class="footer__link">Asociación Chilena de Trabajos en Altura</a>
+        <a href="http://www.ist.cl" target="_blank" rel="noopener" class="footer__link">Instituto de Seguridad del Trabajo</a>
+        <a href="http://www.sence.cl" target="_blank" rel="noopener" class="footer__link">SENCE</a>
+        <a href="http://www.isl.gob.cl" target="_blank" rel="noopener" class="footer__link">Instituto de Seguridad Laboral</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">© <span id="year"></span> LineClean FBV. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://api.whatsapp.com/send?phone=56994175680&text=Bienvenido%20a%20LineClean%2C%20%C2%BFEn%20qu%C3%A9%20te%20podemos%20ayudar" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
