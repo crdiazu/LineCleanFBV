@@ -12,19 +12,19 @@ El objetivo de esta etapa es que usted pueda navegar por ellas, interactuar con 
 
 Haga clic en los enlaces a continuación para ver cada una de las opciones en vivo:
 
-### 1. [Propuesta Industrial (Impacto)](https://crdiazu.github.io/LineCleanFBV/Impacto/)
+### 1. [Propuesta Industrial (Impacto)](https://public-ruby-psi-56.vercel.app/Impacto/)
 **Concepto:** Un panel de control de seguridad industrial.
 *Ideal si busca transmitir máxima seguridad, cumplimiento de normativas, certificaciones y un enfoque técnico y riguroso.*
 
-### 2. [Propuesta Tecnológica (Dark)](https://crdiazu.github.io/LineCleanFBV/Dark/)
+### 2. [Propuesta Tecnológica (Dark)](https://public-ruby-psi-56.vercel.app/Dark/)
 **Concepto:** Estilo moderno, nocturno y de alto impacto.
 *Ideal si busca una imagen vanguardista, moderna y que destaque fuertemente frente a la competencia tradicional.*
 
-### 3. [Propuesta Geométrica (Neo)](https://crdiazu.github.io/LineCleanFBV/Neo/)
+### 3. [Propuesta Geométrica (Neo)](https://public-ruby-psi-56.vercel.app/Neo/)
 **Concepto:** Diseño directo, audaz y estructurado.
 *Ideal si busca una comunicación clara, directa al grano y con mucha fuerza visual.*
 
-### 4. [Propuesta Editorial (Swiss)](https://crdiazu.github.io/LineCleanFBV/Swiss/)
+### 4. [Propuesta Editorial (Swiss)](https://public-ruby-psi-56.vercel.app/Swiss/)
 **Concepto:** Minimalista, elegante y profesional.
 *Ideal si busca transmitir prestigio, limpieza visual y una imagen corporativa de muy alto nivel.*
 
