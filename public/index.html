@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LineClean FBV — Especialistas en trabajos en altura, acceso por cuerdas, seguridad industrial y mantención en Santiago y todo Chile.">
+  <title>LineClean FBV — Trabajos en Altura e Ingeniería de Seguridad</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <!-- TOP STICKY NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="#hero" class="navbar__brand" aria-label="Line Clean FBV Inicio">
+        <img src="img/logo.png" alt="Logo LineClean FBV" class="navbar__logo">
+        <span class="navbar__brand-text">Line Clean <span>FBV</span></span>
+      </a>
+
+      <nav class="navbar__nav" id="nav" aria-label="Navegación principal">
+        <a href="#hero" class="navbar__link active">Inicio</a>
+        <a href="#servicios" class="navbar__link">Servicios</a>
+        <a href="#testimonios" class="navbar__link">Proyectos</a>
+        <a href="#contacto" class="navbar__link">Contacto</a>
+        
+        <div class="navbar__mobile-actions">
+          <a href="https://api.whatsapp.com/send?phone=56994175680&text=Hola%20LineClean%20FBV,%20necesito%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20en%20altura." target="_blank" rel="noopener" class="navbar__contact whatsapp">
+            <i class="ph-fill ph-whatsapp-logo"></i> +56 9 9417 5680
+          </a>
+          <a href="#contacto" class="navbar__btn">Cotizar</a>
+        </div>
+      </nav>
+
+      <div class="navbar__right">
+        <div class="navbar__services">Acceso por Cuerdas • Seguridad Industrial</div>
+        <a href="https://api.whatsapp.com/send?phone=56994175680&text=Hola%20LineClean%20FBV,%20necesito%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20en%20altura." target="_blank" rel="noopener" class="navbar__contact whatsapp">
+          <i class="ph-fill ph-whatsapp-logo"></i> +56 9 9417 5680
+        </a>
+        <a href="#contacto" class="navbar__btn">Cotizar</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="split-layout">
+    
+    <!-- VISUAL PANEL (Fixed background image cross-fade on scroll) -->
+    <div class="visual-panel" aria-hidden="true">
+      <img src="img/hero.jpg" class="visual-panel__bg active" alt="Hero - Trabajos en Altura">
+      <img src="img/servicio-mantencion.jpg" class="visual-panel__bg" alt="Servicios - Mantenimiento">
+      <img src="img/galeria-1.jpg" class="visual-panel__bg" alt="Proyectos y Casos">
+      <img src="img/inspeccion.png" class="visual-panel__bg" alt="Inspección y Cotización">
+      <img src="img/empresa.jpg" class="visual-panel__bg" alt="Contacto LineClean FBV">
+    </div>
+
+    <!-- CONTENT PANEL (Scrollable content stream) -->
+    <main class="content-panel">
+      
+      <!-- Section 0: Hero Section -->
+      <section class="scroll-section hero" id="hero" data-bg="0">
+        <div class="hero__badge-wrapper">
+          <span class="hero__tag">
+            <i class="ph-bold ph-shield-check"></i> Expertos en Seguridad Industrial
+          </span>
+        </div>
+        
+        <h1 class="hero__title">
+          TRABAJOS<br><span>EN ALTURA</span>
+        </h1>
+        
+        <h2 class="hero__subtitle">Soluciones en altura donde otros no llegan</h2>
+        
+        <div class="divider">
+          SEGURIDAD <span>•</span> EXPERIENCIA <span>•</span> PRECISIÓN
+        </div>
+        
+        <p class="hero__desc">
+          Soluciones de ingeniería en altura, acceso vertical por cuerdas y mantenimiento técnico de infraestructuras críticas. Certificados bajo normativas internacionales para minería, energía y construcción.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary">
+            <i class="ph-bold ph-calendar-check"></i> Solicitar Visita Técnica
+          </a>
+          <a href="#servicios" class="btn btn--outline">
+            <i class="ph-bold ph-arrow-down-right"></i> Ver Servicios
+          </a>
+        </div>
+      </section>
+
+      <!-- Section 1: Servicios & Capacidades Técnicas (R3) -->
+      <section class="scroll-section services-section" id="servicios" data-bg="1">
+        <div class="section-header">
+          <span class="section-tag">Capacidades de Alto Estándar</span>
+          <h2 class="section-title">SERVICIOS ESPECIALIZADOS</h2>
+          <p class="section-desc">Ingeniería en altura, montaje de líneas de vida, protección colectiva y mantenimiento técnico bajo normativas internacionales EN, OSHA e IRATA.</p>
+        </div>
+
+        <!-- Core Capabilities Banner -->
+        <div class="capabilities-banner">
+          <div class="capability-item">
+            <div class="capability__icon-box">
+              <i class="ph-bold ph-shield-check"></i>
+            </div>
+            <div class="capability__info">
+              <h4 class="capability__title">Trabajos en Altura</h4>
+              <p class="capability__desc">Normativas NCh & OSHA 1926</p>
+            </div>
+          </div>
+
+          <div class="capability-item">
+            <div class="capability__icon-box">
+              <i class="ph-bold ph-mountains"></i>
+            </div>
+            <div class="capability__info">
+              <h4 class="capability__title">Acceso por Cuerdas</h4>
+              <p class="capability__desc">Técnicos IRATA / ACTA</p>
+            </div>
+          </div>
+
+          <div class="capability-item">
+            <div class="capability__icon-box">
+              <i class="ph-bold ph-certificate"></i>
+            </div>
+            <div class="capability__info">
+              <h4 class="capability__title">Personal Certificado</h4>
+              <p class="capability__desc">Exámenes de altura & EPP al día</p>
+            </div>
+          </div>
+
+          <div class="capability-item">
+            <div class="capability__icon-box">
+              <i class="ph-bold ph-factory"></i>
+            </div>
+            <div class="capability__info">
+              <h4 class="capability__title">Confianza Industrial</h4>
+              <p class="capability__desc">Minería, Energía y Obras Civiles</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6-Capability Interactive Services Catalog -->
+        <div class="services-grid">
+          
+          <!-- Service 1: Líneas de Vida -->
+          <article class="service-card fade-in-right">
+            <div class="service-card__media">
+              <img src="img/servicio-lineas-vida.png" alt="Instalación y certificación de Líneas de Vida y Puntos de Anclaje" class="service-card__img" loading="lazy">
+              <span class="service-card__badge">Norma EN 795 / OSHA</span>
+              <div class="service-card__icon-wrap">
+                <i class="ph-bold ph-anchor-simple"></i>
+              </div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">LÍNEAS DE VIDA Y ANCLAJES</h3>
+              <p class="service-card__desc">
+                Cálculo, diseño estructural, suministro, instalación y recertificación anual de sistemas de líneas de vida horizontales y verticales (cable de acero y riel), además de puntos de anclaje certificados.
+              </p>
+              <ul class="service-card__checklist">
+                <li><i class="ph-bold ph-check-circle"></i> Memoria de cálculo y absorción de impacto</li>
+                <li><i class="ph-bold ph-check-circle"></i> Anclajes químicos y mecánicos certificados</li>
+                <li><i class="ph-bold ph-check-circle"></i> Pruebas de tracción y entrega de placa técnica</li>
+              </ul>
+              <a href="#contacto" class="service-card__action">
+                <span>Cotizar Líneas de Vida</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 2: Redes y Mallas de Seguridad -->
+          <article class="service-card fade-in-right delay-1">
+            <div class="service-card__media">
+              <img src="img/servicio-redes-mallas.png" alt="Instalación de Redes y Mallas de Seguridad Anticaídas" class="service-card__img" loading="lazy">
+              <span class="service-card__badge">Norma EN 1263-1</span>
+              <div class="service-card__icon-wrap">
+                <i class="ph-bold ph-grid-four"></i>
+              </div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">REDES Y MALLAS DE SEGURIDAD</h3>
+              <p class="service-card__desc">
+                Sistemas de protección colectiva mediante redes anticaídas de personas y mallas de contención perimetral de escombros para obras en construcción, silos y estructuras industriales.
+              </p>
+              <ul class="service-card__checklist">
+                <li><i class="ph-bold ph-check-circle"></i> Redes de seguridad Tipo S, T y V</li>
+                <li><i class="ph-bold ph-check-circle"></i> Mallas mosquiteras y contención de escombros</li>
+                <li><i class="ph-bold ph-check-circle"></i> Montaje rápido con supervisión de prevención</li>
+              </ul>
+              <a href="#contacto" class="service-card__action">
+                <span>Cotizar Redes de Seguridad</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 3: Acceso por Cuerdas (Rope Access) -->
+          <article class="service-card fade-in-right">
+            <div class="service-card__media">
+              <img src="img/trabajos-altura.png" alt="Técnicos especialistas en Acceso por Cuerdas y Trabajo Vertical" class="service-card__img" loading="lazy">
+              <span class="service-card__badge">IRATA / ACTA Level 1-3</span>
+              <div class="service-card__icon-wrap">
+                <i class="ph-bold ph-person-simple-throw"></i>
+              </div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">ACCESO VERTICAL POR CUERDAS</h3>
+              <p class="service-card__desc">
+                Maniobras de posicionamiento y progresión vertical con cuerdas para intervención precisa en puntos inaccesibles sin requerir andamios pesados ni grúas elevadoras de alto costo.
+              </p>
+              <ul class="service-card__checklist">
+                <li><i class="ph-bold ph-check-circle"></i> Cero interrupción del tránsito o faenas en tierra</li>
+                <li><i class="ph-bold ph-check-circle"></i> Intervención en chimeneas, silos y fachadas</li>
+                <li><i class="ph-bold ph-check-circle"></i> Brigada de rescate técnico autónomo en faena</li>
+              </ul>
+              <a href="#contacto" class="service-card__action">
+                <span>Cotizar Trabajos Verticales</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 4: Inspección y Diagnóstico NDT -->
+          <article class="service-card fade-in-right delay-1">
+            <div class="service-card__media">
+              <img src="img/servicio-diagnostico.jpg" alt="Inspección técnica y Ensayos No Destructivos NDT en Altura" class="service-card__img" loading="lazy">
+              <span class="service-card__badge">Ensayos NDT / Termografía</span>
+              <div class="service-card__icon-wrap">
+                <i class="ph-bold ph-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">INSPECCIÓN Y DIAGNÓSTICO NDT</h3>
+              <p class="service-card__desc">
+                Evaluación integral de integridad estructural y ensayos no destructivos (ultrasonido, líquidos penetrantes, partículas magnéticas e inspección visual HD) en activos de alto riesgo.
+              </p>
+              <ul class="service-card__checklist">
+                <li><i class="ph-bold ph-check-circle"></i> Medición de espesores en calderas, tanques y ductos</li>
+                <li><i class="ph-bold ph-check-circle"></i> Detección precoz de fatiga, corrosión y fisuras</li>
+                <li><i class="ph-bold ph-check-circle"></i> Informes técnicos respaldados por ingeniería</li>
+              </ul>
+              <a href="#contacto" class="service-card__action">
+                <span>Solicitar Diagnóstico NDT</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 5: Limpieza Técnica en Altura -->
+          <article class="service-card fade-in-right">
+            <div class="service-card__media">
+              <img src="img/servicio-mantencion.jpg" alt="Limpieza técnica industrial y lavado de fachadas en altura" class="service-card__img" loading="lazy">
+              <span class="service-card__badge">Hidrolavado & Mantención</span>
+              <div class="service-card__icon-wrap">
+                <i class="ph-bold ph-sparkle"></i>
+              </div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">LIMPIEZA TÉCNICA EN ALTURA</h3>
+              <p class="service-card__desc">
+                Mantenimiento preventivo y correctivo de muros cortina vidriados, hidrolavado a presión de cubiertas industriales, remoción de polvo mineral en plantas y tratamiento de superficies.
+              </p>
+              <ul class="service-card__checklist">
+                <li><i class="ph-bold ph-check-circle"></i> Hidrolavado a presión regulada con agua desmineralizada</li>
+                <li><i class="ph-bold ph-check-circle"></i> Sellado de cristales y juntas de dilatación</li>
+                <li><i class="ph-bold ph-check-circle"></i> Aplicación de protectores hidrófugos y anticorrosivos</li>
+              </ul>
+              <a href="#contacto" class="service-card__action">
+                <span>Cotizar Limpieza Técnica</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 6: Control de Aves y Plagas Urbanas -->
+          <article class="service-card fade-in-right delay-1">
+            <div class="service-card__media">
+              <img src="img/servicio-plagas.jpg" alt="Control de aves y plagas urbanas en cornisas y edificios" class="service-card__img" loading="lazy">
+              <span class="service-card__badge">Soluciones Sanitarias</span>
+              <div class="service-card__icon-wrap">
+                <i class="ph-bold ph-shield-chevron"></i>
+              </div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">CONTROL DE AVES Y PLAGAS</h3>
+              <p class="service-card__desc">
+                Instalación de barreras físicas mecánicas, redes de polietileno con protección UV y sistemas de púas disuasivas de acero inoxidable en cornisas, naves y techumbres para preservar la bioseguridad.
+              </p>
+              <ul class="service-card__checklist">
+                <li><i class="ph-bold ph-check-circle"></i> Métodos 100% ecológicos, no letales y discretos</li>
+                <li><i class="ph-bold ph-check-circle"></i> Redes HDPE de alta resistencia a la intemperie</li>
+                <li><i class="ph-bold ph-check-circle"></i> Sanitización profunda y eliminación de vectores</li>
+              </ul>
+              <a href="#contacto" class="service-card__action">
+                <span>Cotizar Control de Aves</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Section 2: Proyectos Destacados, Casos de Éxito & Testimonios (R4) -->
+      <section class="scroll-section cases-section" id="testimonios" data-bg="2">
+        <div class="section-header">
+          <span class="section-tag">Trayectoria & Testimonios</span>
+          <h2 class="section-title">CASOS DE ÉXITO INDUSTRIAL</h2>
+          <p class="section-desc">Operaciones críticas ejecutadas con éxito en minería, generación eléctrica, plantas industriales y edificación corporativa en altura.</p>
+        </div>
+
+        <!-- Industrial Case Studies Grid with Quotes -->
+        <div class="cases-grid">
+
+          <!-- Case 1: Minería -->
+          <article class="case-card fade-in-right">
+            <div class="case-card__image-box">
+              <img src="img/proyecto-1.jpeg" alt="Proyecto en faena minera - Instalación de líneas de vida en silos" class="case-card__img" loading="lazy">
+              <span class="case-card__sector-tag">MINERÍA • ANTOFAGASTA</span>
+            </div>
+            <div class="case-card__content">
+              <h3 class="case-card__title">Instalación y Certificación de Líneas de Vida en Silos de Concentrado</h3>
+              
+              <div class="case-card__metrics">
+                <span class="metric-badge"><i class="ph-bold ph-check-circle"></i> 520m de Línea Certificada</span>
+                <span class="metric-badge"><i class="ph-bold ph-shield-check"></i> Cero Accidentes</span>
+                <span class="metric-badge"><i class="ph-bold ph-clock"></i> 4 Días de Ejecución</span>
+              </div>
+
+              <blockquote class="case-card__quote">
+                <p>"La capacidad de respuesta y rigor técnico de LineClean FBV fue fundamental para certificar los anclajes de nuestra planta de molienda en tiempo récord y bajo los más exigentes estándares de seguridad minera."</p>
+                <footer class="case-card__author">
+                  <strong>Ing. Carlos Valenzuela</strong>
+                  <span>Superintendente de Mantención & Seguridad — Faena Minera Norte</span>
+                </footer>
+              </blockquote>
+            </div>
+          </article>
+
+          <!-- Case 2: Energía -->
+          <article class="case-card fade-in-right delay-1">
+            <div class="case-card__image-box">
+              <img src="img/proyecto-2.jpeg" alt="Proyecto en sector energía - Inspección NDT en tuberías forzadas" class="case-card__img" loading="lazy">
+              <span class="case-card__sector-tag">ENERGÍA • BIOBÍO</span>
+            </div>
+            <div class="case-card__content">
+              <h3 class="case-card__title">Inspección NDT y Diagnóstico Estructural en Tubería Forzada</h3>
+              
+              <div class="case-card__metrics">
+                <span class="metric-badge"><i class="ph-bold ph-check-circle"></i> 140m Descenso Vertical</span>
+                <span class="metric-badge"><i class="ph-bold ph-shield-check"></i> Rescate Standby</span>
+                <span class="metric-badge"><i class="ph-bold ph-lightning"></i> Sin Detener Generación</span>
+              </div>
+
+              <blockquote class="case-card__quote">
+                <p>"Destacamos la preparación de sus técnicos IRATA en espacios confinados y alta pendiente. El informe NDT fue entregado con respaldo fotográfico de alta resolución y recomendaciones clave."</p>
+                <footer class="case-card__author">
+                  <strong>Roberto Méndez</strong>
+                  <span>Jefe de Operaciones Hidroeléctricas — Generación Sur</span>
+                </footer>
+              </blockquote>
+            </div>
+          </article>
+
+          <!-- Case 3: Construcción -->
+          <article class="case-card fade-in-right">
+            <div class="case-card__image-box">
+              <img src="img/proyecto-3.jpeg" alt="Proyecto en construcción - Montaje de mallas y redes perimetrales" class="case-card__img" loading="lazy">
+              <span class="case-card__sector-tag">CONSTRUCCIÓN • SANTIAGO</span>
+            </div>
+            <div class="case-card__content">
+              <h3 class="case-card__title">Protección Colectiva y Redes Anticaídas en Torre Corporativa</h3>
+              
+              <div class="case-card__metrics">
+                <span class="metric-badge"><i class="ph-bold ph-check-circle"></i> 3.800 m² de Malla Tipo S</span>
+                <span class="metric-badge"><i class="ph-bold ph-shield-check"></i> Norma EN 1263-1</span>
+                <span class="metric-badge"><i class="ph-bold ph-buildings"></i> 36 Pisos Protegidos</span>
+              </div>
+
+              <blockquote class="case-card__quote">
+                <p>"Excelente coordinación con nuestro departamento de prevención de riesgos. Cumplieron los plazos de montaje perimetral garantizando la seguridad de todo el personal en faena."</p>
+                <footer class="case-card__author">
+                  <strong>Valentina Silva</strong>
+                  <span>Administradora de Obra & Prevencionista — Constructora Metropolitana</span>
+                </footer>
+              </blockquote>
+            </div>
+          </article>
+
+          <!-- Case 4: Industria y Alimentos -->
+          <article class="case-card fade-in-right delay-1">
+            <div class="case-card__image-box">
+              <img src="img/proyecto-4.jpeg" alt="Proyecto industrial - Limpieza técnica y control de aves en silos" class="case-card__img" loading="lazy">
+              <span class="case-card__sector-tag">INDUSTRIA • SAN BERNARDO</span>
+            </div>
+            <div class="case-card__content">
+              <h3 class="case-card__title">Hidrolavado Integral de Silos y Barreras de Bioseguridad</h3>
+              
+              <div class="case-card__metrics">
+                <span class="metric-badge"><i class="ph-bold ph-check-circle"></i> 16 Silos Intervenidos</span>
+                <span class="metric-badge"><i class="ph-bold ph-shield-check"></i> Inocuidad Sanitaria</span>
+                <span class="metric-badge"><i class="ph-bold ph-sparkle"></i> Cero Daño a Estructura</span>
+              </div>
+
+              <blockquote class="case-card__quote">
+                <p>"La instalación de redes anti-aves y la limpieza técnica de nuestras naves de acopio nos permitieron aprobar la auditoría de calidad con calificación sobresaliente. 100% recomendados."</p>
+                <footer class="case-card__author">
+                  <strong>Rodrigo Pizarro</strong>
+                  <span>Gerente de Planta & Logística — Agroindustria Central</span>
+                </footer>
+              </blockquote>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Visual Field Gallery -->
+        <div class="gallery-wrapper">
+          <div class="gallery-header">
+            <h3 class="gallery-title"><i class="ph-bold ph-camera"></i> REGISTRO FOTOGRÁFICO EN TERRENO</h3>
+            <span class="gallery-subtitle">Evidencia de intervenciones técnicas reales</span>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="img/galeria-1.jpg" alt="Faena de anclajes y descenso vertical en estructura metálica" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span>Maniobras en Altura</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/galeria-2.jpg" alt="Técnico realizando inspección visual de activos" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span>Inspección NDT</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/galeria-3.jpg" alt="Instalación de malla perimetral de protección" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span>Redes Anticaídas</span>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/galeria-4.jpg" alt="Hidrolavado técnico de fachada vidriada en altura" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <span>Limpieza Técnica</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Section 3: Pre-Contact Conversion CTA Banner (R5, data-bg 3) -->
+      <section class="scroll-section cta-banner-section" id="cta-banner" data-bg="3">
+        <div class="cta-banner-card fade-in-right">
+          <div class="cta-banner__content">
+            <div class="cta-banner__badges">
+              <span class="cta-badge"><i class="ph-bold ph-lightning"></i> Atención Inmediata</span>
+              <span class="cta-badge"><i class="ph-bold ph-map-pin"></i> Santiago y Regiones</span>
+              <span class="cta-badge"><i class="ph-bold ph-certificate"></i> Personal 100% Certificado</span>
+            </div>
+            <h2 class="cta-banner__title">EVALUAMOS TU FAENA EN TERRENO</h2>
+            <p class="cta-banner__highlight">Presupuesto sin costo en la Región Metropolitana</p>
+            <p class="cta-banner__desc">
+              Coordinamos visitas de inspección técnica en terreno para evaluar puntos de anclaje, líneas de vida, mallas o maniobras de acceso vertical sin compromiso de contratación.
+            </p>
+          </div>
+          <div class="cta-banner__actions">
+            <a href="https://api.whatsapp.com/send?phone=56994175680&text=Hola%20LineClean%20FBV,%20necesito%20evaluaci%C3%B3n%20en%20terreno%20y%20presupuesto%20sin%20costo." target="_blank" rel="noopener" class="btn btn--whatsapp">
+              <i class="ph-bold ph-whatsapp-logo"></i> Contactar por WhatsApp
+            </a>
+            <a href="#contacto" class="btn btn--primary">
+              <i class="ph-bold ph-file-text"></i> Completar Formulario
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Contacto & Formulario de Cotización (R6, data-bg 4) -->
+      <section class="scroll-section contact-section" id="contacto" data-bg="4">
+        <div class="section-header">
+          <span class="section-tag">Contacto & Cotizaciones</span>
+          <h2 class="section-title">SOLICITA TU PROPUESTA TÉCNICA</h2>
+          <p class="section-desc">Completa el formulario de requerimiento o contáctanos por nuestros canales oficiales para recibir asesoría técnica inmediata.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          
+          <!-- Contact Channels & Guarantee -->
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-card__icon">
+                <i class="ph-bold ph-whatsapp-logo"></i>
+              </div>
+              <div class="contact-card__body">
+                <h4 class="contact-card__title">Teléfono & WhatsApp Oficial</h4>
+                <p class="contact-card__val"><a href="https://api.whatsapp.com/send?phone=56994175680" target="_blank" rel="noopener">+56 9 9417 5680</a></p>
+                <span class="contact-card__note">Atención comercial de Lunes a Viernes 08:30 - 18:30 hrs</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card__icon">
+                <i class="ph-bold ph-envelope-simple"></i>
+              </div>
+              <div class="contact-card__body">
+                <h4 class="contact-card__title">Correos de Contacto</h4>
+                <p class="contact-card__val"><a href="mailto:linecleanchile@gmail.com">linecleanchile@gmail.com</a></p>
+                <p class="contact-card__val"><a href="mailto:contacto@linecleanfbv.cl">contacto@linecleanfbv.cl</a></p>
+                <span class="contact-card__note">Respuesta técnica y comercial en menos de 2 horas</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card__icon">
+                <i class="ph-bold ph-map-pin"></i>
+              </div>
+              <div class="contact-card__body">
+                <h4 class="contact-card__title">Cobertura Operativa</h4>
+                <p class="contact-card__val">Santiago, Chile</p>
+                <span class="contact-card__note">Despliegue de cuadrillas técnicas en toda la Región Metropolitana y faenas a lo largo de Chile</span>
+              </div>
+            </div>
+
+            <div class="contact-card contact-card--highlight">
+              <div class="contact-card__icon">
+                <i class="ph-bold ph-shield-check"></i>
+              </div>
+              <div class="contact-card__body">
+                <h4 class="contact-card__title">Seguridad y Respaldo Normativo</h4>
+                <p class="contact-card__desc">
+                  Toda maniobra cuenta con personal calificado, EPP certificado al día, memorias de cálculo visadas por ingeniería y póliza de seguro de responsabilidad civil.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form with Validation -->
+          <div class="contact-form-container">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-header">
+                <h3 class="form-title"><i class="ph-bold ph-clipboard-text"></i> Formulario de Requerimiento</h3>
+                <p class="form-subtitle">Los datos ingresados se despachan de forma directa a nuestro equipo vía WhatsApp</p>
+              </div>
+
+              <!-- Field: Nombre -->
+              <div class="form-group" id="group-nombre">
+                <label for="nombre" class="form-label">Nombre y Apellido <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="ph-bold ph-user input-icon"></i>
+                  <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ej: Carlos Valenzuela" required autocomplete="name">
+                </div>
+                <span class="form-error" id="nombreError" aria-live="polite"></span>
+              </div>
+
+              <!-- Row: Email & Teléfono -->
+              <div class="form-row">
+                <div class="form-group" id="group-email">
+                  <label for="email" class="form-label">Correo Electrónico <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="ph-bold ph-envelope-simple input-icon"></i>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="carlos@constructora.cl" required autocomplete="email">
+                  </div>
+                  <span class="form-error" id="emailError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group" id="group-telefono">
+                  <label for="telefono" class="form-label">Teléfono / Celular <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="ph-bold ph-phone input-icon"></i>
+                    <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="+56 9 9417 5680" required autocomplete="tel">
+                  </div>
+                  <span class="form-error" id="telefonoError" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <!-- Field: Servicio -->
+              <div class="form-group" id="group-servicio">
+                <label for="servicio" class="form-label">Servicio Requerido <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="ph-bold ph-gear input-icon"></i>
+                  <select id="servicio" name="servicio" class="form-control form-select" required>
+                    <option value="" disabled selected>Selecciona el servicio que necesitas...</option>
+                    <option value="Líneas de Vida y Puntos de Anclaje">Líneas de Vida y Puntos de Anclaje</option>
+                    <option value="Redes y Mallas de Seguridad">Redes y Mallas de Seguridad Anticaídas</option>
+                    <option value="Acceso Vertical por Cuerdas">Acceso Vertical por Cuerdas (Rope Access)</option>
+                    <option value="Diagnóstico NDT e Inspección">Diagnóstico NDT e Inspección Estructural</option>
+                    <option value="Limpieza Técnica en Altura">Limpieza Técnica en Altura y Fachadas</option>
+                    <option value="Control de Aves y Plagas Urbanas">Control de Aves y Plagas Urbanas</option>
+                    <option value="Asesoría General y Visita Técnica">Asesoría General / Evaluación en Terreno</option>
+                  </select>
+                </div>
+                <span class="form-error" id="servicioError" aria-live="polite"></span>
+              </div>
+
+              <!-- Field: Mensaje -->
+              <div class="form-group" id="group-mensaje">
+                <label for="mensaje" class="form-label">Detalles del Requerimiento o Faena <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <i class="ph-bold ph-chat-text input-icon input-icon--textarea"></i>
+                  <textarea id="mensaje" name="mensaje" rows="4" class="form-control" placeholder="Indica ubicación de faena, metros lineales, altura aproximada o plazos requeridos..." required></textarea>
+                </div>
+                <span class="form-error" id="mensajeError" aria-live="polite"></span>
+              </div>
+
+              <!-- Status Notification Banner -->
+              <div class="form-status" id="formStatus" role="alert" style="display: none;"></div>
+
+              <button type="submit" class="btn btn--primary btn--submit" id="btnSubmit">
+                <i class="ph-bold ph-paper-plane-tilt"></i> Enviar Cotización por WhatsApp
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section 5: Corporate Footer (R7) -->
+      <footer class="footer" id="footer">
+        <div class="footer__top">
+          
+          <!-- Col 1: Brand & Overview -->
+          <div class="footer__col footer__col--brand">
+            <a href="#hero" class="footer__brand" aria-label="Line Clean FBV Inicio">
+              <img src="img/logo.png" alt="Logo LineClean FBV" class="footer__logo">
+              <span class="footer__brand-text">Line Clean <span>FBV</span></span>
+            </a>
+            <p class="footer__tagline">
+              Especialistas en ingeniería de seguridad en altura, montaje y certificación de líneas de vida, acceso por cuerdas y mantenimiento técnico industrial en Santiago y todo Chile.
+            </p>
+            <div class="footer__socials">
+              <a href="https://api.whatsapp.com/send?phone=56994175680" target="_blank" rel="noopener" aria-label="WhatsApp Oficial"><i class="ph-fill ph-whatsapp-logo"></i></a>
+              <a href="mailto:linecleanchile@gmail.com" aria-label="Enviar correo electrónico"><i class="ph-bold ph-envelope-simple"></i></a>
+              <a href="tel:+56994175680" aria-label="Llamar a teléfono comercial"><i class="ph-bold ph-phone-call"></i></a>
+            </div>
+          </div>
+
+          <!-- Col 2: Quick Links -->
+          <div class="footer__col">
+            <h4 class="footer__heading">Navegación</h4>
+            <ul class="footer__links">
+              <li><a href="#hero"><i class="ph-bold ph-caret-right"></i> Inicio</a></li>
+              <li><a href="#servicios"><i class="ph-bold ph-caret-right"></i> Servicios Especializados</a></li>
+              <li><a href="#testimonios"><i class="ph-bold ph-caret-right"></i> Proyectos & Testimonios</a></li>
+              <li><a href="#cta-banner"><i class="ph-bold ph-caret-right"></i> Evaluación en Terreno</a></li>
+              <li><a href="#contacto"><i class="ph-bold ph-caret-right"></i> Contacto & Cotización</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Official Contact Channels -->
+          <div class="footer__col">
+            <h4 class="footer__heading">Contacto Oficial</h4>
+            <ul class="footer__contact-list">
+              <li>
+                <i class="ph-bold ph-phone"></i>
+                <div>
+                  <strong>Teléfono:</strong>
+                  <a href="tel:+56994175680">+56 9 9417 5680</a>
+                </div>
+              </li>
+              <li>
+                <i class="ph-bold ph-whatsapp-logo"></i>
+                <div>
+                  <strong>WhatsApp:</strong>
+                  <a href="https://api.whatsapp.com/send?phone=56994175680" target="_blank" rel="noopener">+56 9 9417 5680</a>
+                </div>
+              </li>
+              <li>
+                <i class="ph-bold ph-envelope"></i>
+                <div>
+                  <strong>Correos:</strong>
+                  <a href="mailto:linecleanchile@gmail.com">linecleanchile@gmail.com</a>
+                  <a href="mailto:contacto@linecleanfbv.cl">contacto@linecleanfbv.cl</a>
+                </div>
+              </li>
+              <li>
+                <i class="ph-bold ph-map-pin"></i>
+                <div>
+                  <strong>Ubicación:</strong>
+                  <span>Santiago, Chile</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Compliance & Normative Affiliations -->
+          <div class="footer__col">
+            <h4 class="footer__heading">Normativas & Afiliaciones</h4>
+            <p class="footer__compliance-text">
+              Procedimientos operacionales estandarizados y adheridos a los principales organismos de prevención y normativa técnica:
+            </p>
+            <div class="compliance-badges">
+              <div class="compliance-badge" title="Asociación Chilena de Trabajo en Altura">
+                <i class="ph-bold ph-shield-check"></i>
+                <div>
+                  <strong>ACTA Chile</strong>
+                  <span>Acceso por Cuerdas</span>
+                </div>
+              </div>
+              <div class="compliance-badge" title="Instituto de Seguridad del Trabajo">
+                <i class="ph-bold ph-first-aid"></i>
+                <div>
+                  <strong>IST</strong>
+                  <span>Adherente Prevención</span>
+                </div>
+              </div>
+              <div class="compliance-badge" title="Servicio Nacional de Capacitación y Empleo">
+                <i class="ph-bold ph-certificate"></i>
+                <div>
+                  <strong>SENCE</strong>
+                  <span>Capacitación Técnica</span>
+                </div>
+              </div>
+              <div class="compliance-badge" title="Instituto de Seguridad Laboral">
+                <i class="ph-bold ph-buildings"></i>
+                <div>
+                  <strong>ISL</strong>
+                  <span>Seguridad Laboral</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer__bottom">
+          <div class="footer__bottom-container">
+            <p class="footer__copyright">
+              &copy; <span id="year">2026</span> Line Clean FBV. Todos los derechos reservados.
+            </p>
+            <div class="footer__legal">
+              <span>Ingeniería en Altura & Seguridad Industrial</span>
+              <span class="sep">•</span>
+              <span>Santiago, Chile</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

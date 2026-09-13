@@ -22,3 +22,21 @@ backup_*/
 
 # Obsidian vault metadata
 .obsidian/
+
+# Sensitive credentials (kept for reference, never pushed)
+archive/credenciales/
+
+# Copilot conversations (private)
+copilot/
+
+# Deploy caches
+hosting..cache
+.vercel/
+
+# AI agent ephemeral state (not project content)
+.agents/
+.claude/skills/
+.opencode/skills/
+
+# Embedded git repositories (do not track as submodule)
+archive/proyectos-legacy/*/

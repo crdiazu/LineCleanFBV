@@ -1,50 +1,25 @@
-# Propuestas de Diseño Web - LineClean FBV
+# LineClean FBV — Propuesta de Diseño Web
 
-¡Bienvenido! Hemos preparado **cuatro propuestas visuales** distintas para el nuevo sitio web de **LineClean FBV**. 
+La propuesta seleccionada es **Impacto**: un panel de control de seguridad industrial con diseño *split-layout*, transiciones suaves de fondo al hacer scroll, tipografía `Bebas Neue` + `Inter` y un enfoque técnico y riguroso.
 
-Cada propuesta ha sido diseñada pensando en resaltar la profesionalidad, seguridad y experiencia de sus servicios en trabajos en altura, pero cada una tiene un "sabor" visual único. 
+## 🎨 Diseño Impacto
 
-El objetivo de esta etapa es que usted pueda navegar por ellas, interactuar con el diseño y elegir la dirección visual que más le guste para su empresa.
+**Concepto:** Panel de control de seguridad industrial.
+*Ideal si buscas transmitir máxima seguridad, cumplimiento de normativas, certificaciones y una imagen técnica.*
 
----
+## 🚀 Despliegue
 
-## 🎨 Las 4 Propuestas
+El sitio está desplegado en Vercel:
+- [https://public-ruby-psi-56.vercel.app/](https://public-ruby-psi-56.vercel.app/)
 
-Haga clic en los enlaces a continuación para ver cada una de las opciones en vivo:
+## 📂 Estructura
 
-### 1. [Propuesta Industrial (Impacto)](https://public-ruby-psi-56.vercel.app/Impacto/)
-**Concepto:** Un panel de control de seguridad industrial.
-*Ideal si busca transmitir máxima seguridad, cumplimiento de normativas, certificaciones y un enfoque técnico y riguroso.*
+- `public/` — Sitio desplegado (raíz = diseño Impacto)
+- `project_docs/` — Contenido web, SEO, marketing y notas del cliente
+- `documentacion/` — Gestión técnica del proyecto (ORIGINAL_REQUEST, PROJECT, STATUS, TESTS)
+- `raw_assets/` — Material fuente (fotos, logos, diseño)
+- `archive/` — Backups, proyectos legacy y credenciales
 
-### 2. [Propuesta Tecnológica (Dark)](https://public-ruby-psi-56.vercel.app/Dark/)
-**Concepto:** Estilo moderno, nocturno y de alto impacto.
-*Ideal si busca una imagen vanguardista, moderna y que destaque fuertemente frente a la competencia tradicional.*
-
-### 3. [Propuesta Geométrica (Neo)](https://public-ruby-psi-56.vercel.app/Neo/)
-**Concepto:** Diseño directo, audaz y estructurado.
-*Ideal si busca una comunicación clara, directa al grano y con mucha fuerza visual.*
-
-### 4. [Propuesta Editorial (Swiss)](https://public-ruby-psi-56.vercel.app/Swiss/)
-**Concepto:** Minimalista, elegante y profesional.
-*Ideal si busca transmitir prestigio, limpieza visual y una imagen corporativa de muy alto nivel.*
-
----
-
-## 📝 ¿Cómo revisar estas propuestas?
-
-1. **Navegue libremente:** Haga clic en los enlaces de arriba desde su computador o teléfono.
-2. **Concéntrese en el estilo visual:** Fíjese en los colores, el tipo de letra, la forma en que se presentan las imágenes y la sensación general que transmite cada opción.
-3. **No se preocupe por los textos exactos aún:** En esta etapa estamos definiendo el "traje" de la página. Los textos finales, fotos específicas y detalles de contacto se ajustarán perfectamente en la siguiente fase.
-
-## 🚀 Próximos Pasos
-
-Una vez que haya revisado las opciones, por favor indíquenos:
-- ¿Cuál de las 4 propuestas le gusta más?
-- ¿Hay algún elemento específico que le haya llamado la atención?
-
-¡Quedamos atentos a sus comentarios para seguir avanzando con la construcción de su sitio web!
-
----
-**Contacto del equipo de desarrollo:**
+## 📞 Contacto del equipo de desarrollo:
 - **Teléfono / WhatsApp:** +56 9 9417 5680
 - **Email:** linecleanchile@gmail.com
