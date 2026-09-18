@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Proyectos y Casos de Éxito — Testeo de anclajes Garden House, Edificio Pullman, líneas de vida y obras industriales por LineClean FBV.">
+  <title>Portafolio de Proyectos — LineClean FBV</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <!-- TOP STICKY NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="index.html" class="navbar__brand" aria-label="Line Clean FBV Inicio">
+        <img src="img/logo.png" alt="Line Clean" class="navbar__logo">
+        <span class="navbar__brand-text"><span>FBV</span></span>
+      </a>
+
+      <nav class="navbar__nav" id="nav" aria-label="Navegación principal">
+        <a href="index.html" class="navbar__link">Inicio</a>
+        <a href="servicios.html" class="navbar__link">Servicios</a>
+        <a href="empresa.html" class="navbar__link">Empresa</a>
+        <a href="proyectos.html" class="navbar__link active">Proyectos</a>
+        <a href="certificaciones.html" class="navbar__link">Certificaciones</a>
+        <a href="contacto.html" class="navbar__link">Contacto</a>
+        
+        <div class="navbar__mobile-actions">
+          <a href="https://api.whatsapp.com/send?phone=56994175680&text=Hola%20LineClean%20FBV,%20necesito%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20en%20altura." target="_blank" rel="noopener" class="navbar__contact whatsapp">
+            <i class="ph-fill ph-whatsapp-logo"></i> +56 9 9417 5680
+          </a>
+          <a href="contacto.html" class="navbar__btn">Cotizar</a>
+        </div>
+      </nav>
+
+      <div class="navbar__right">
+        <div class="navbar__services">Acceso por Cuerdas • Seguridad Industrial</div>
+        <a href="https://api.whatsapp.com/send?phone=56994175680&text=Hola%20LineClean%20FBV,%20necesito%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20en%20altura." target="_blank" rel="noopener" class="navbar__contact whatsapp">
+          <i class="ph-fill ph-whatsapp-logo"></i> +56 9 9417 5680
+        </a>
+        <a href="contacto.html" class="navbar__btn">Cotizar</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SUBPAGE HERO -->
+  <section class="subpage-hero">
+    <div class="subpage-hero__container">
+      <nav class="breadcrumbs" aria-label="Migas de pan">
+        <a href="index.html">Inicio</a>
+        <span class="sep">/</span>
+        <span class="current">Portafolio de Proyectos</span>
+      </nav>
+
+      <span class="subpage-hero__tag">
+        <i class="ph-bold ph-briefcase"></i> Casos Reales en Terreno
+      </span>
+
+      <h1 class="subpage-hero__title">
+        PROYECTOS Y <span>CASOS DE ÉXITO</span>
+      </h1>
+
+      <p class="subpage-hero__desc">
+        Conoce algunas de nuestras intervenciones técnicas más destacadas en edificación corporativa, complejos habitacionales e industrias en Santiago y regiones. Cada proyecto representa un desafío de ingeniería resuelto con seguridad certificada.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="subpage-main">
+
+    <!-- PROJECT FILTER BAR -->
+    <div class="project-filter" role="tablist" aria-label="Filtrar proyectos">
+      <button class="project-filter__btn active" data-filter="all">Todos los Proyectos</button>
+      <button class="project-filter__btn" data-filter="anclajes">Anclajes & Líneas</button>
+      <button class="project-filter__btn" data-filter="mantenimiento">Mantenimiento & LED</button>
+      <button class="project-filter__btn" data-filter="redes">Redes & Protección</button>
+    </div>
+
+    <!-- PROJECTS GRID -->
+    <div class="projects-deep-grid">
+
+      <!-- Proyecto 1: Garden House -->
+      <article class="project-full-card" data-category="anclajes">
+        <div class="project-full-card__media">
+          <img src="img/proyecto-1.jpeg" alt="Testeo e instalación anclaje Garden House" class="project-full-card__img" loading="lazy">
+        </div>
+        <div class="project-full-card__body">
+          <div class="project-full-card__meta">
+            <span>Edificación Corporativa</span>
+            <span>EN 795 Clase A</span>
+          </div>
+          <h3 class="project-full-card__title">TESTEO E INSTALACIÓN DE ANCLAJES — GARDEN HOUSE</h3>
+          <p class="project-full-card__desc">
+            Instalación y ensayos de tracción in situ de puntos de anclaje químicos y mecánicos sobre hormigón armado para habilitar labores seguras de mantenimiento en cubierta y fachada.
+          </p>
+          <div class="project-full-card__specs">
+            <div class="project-spec-item">
+              <strong>Ubicación:</strong>
+              <span>Santiago Oriente</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Carga de Ensayo:</strong>
+              <span>12 kN estática (1 min)</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Material:</strong>
+              <span>Acero Inox AISI 316</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Resultado:</strong>
+              <span>Certificado 100% aprobado</span>
+            </div>
+          </div>
+          <a href="contacto.html?proyecto=garden-house" class="service-deep-card__btn">
+            <span>Consultar Solución Similar</span>
+            <i class="ph-bold ph-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Proyecto 2: Edificio Pullman -->
+      <article class="project-full-card" data-category="mantenimiento">
+        <div class="project-full-card__media">
+          <img src="img/proyecto-2.jpeg" alt="Cambio de luminarias LED edificio Pullman" class="project-full-card__img" loading="lazy">
+        </div>
+        <div class="project-full-card__body">
+          <div class="project-full-card__meta">
+            <span>Sector Hotelero / Comercial</span>
+            <span>Eficiencia LED</span>
+          </div>
+          <h3 class="project-full-card__title">CAMBIO DE LUMINARIAS LED — EDIFICIO PULLMAN</h3>
+          <p class="project-full-card__desc">
+            Desmontaje de proyectores de alta potencia antiguos y montaje de sistema LED de alta eficiencia en fachada vertical mediante técnicas de progresión por cuerdas sin interrumpir el flujo hotelero.
+          </p>
+          <div class="project-full-card__specs">
+            <div class="project-spec-item">
+              <strong>Ubicación:</strong>
+              <span>Santiago Centro</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Técnica:</strong>
+              <span>Acceso Cuerdas IRATA</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Altura Máxima:</strong>
+              <span>65 metros</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Plazo de Ejecución:</strong>
+              <span>3 días hábiles</span>
+            </div>
+          </div>
+          <a href="contacto.html?proyecto=edificio-pullman" class="service-deep-card__btn">
+            <span>Consultar Solución Similar</span>
+            <i class="ph-bold ph-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Proyecto 3: Líneas de Vida en Planta Industrial -->
+      <article class="project-full-card" data-category="anclajes">
+        <div class="project-full-card__media">
+          <img src="img/proyecto-3.jpeg" alt="Instalación de líneas de vida industriales" class="project-full-card__img" loading="lazy">
+        </div>
+        <div class="project-full-card__body">
+          <div class="project-full-card__meta">
+            <span>Sector Industrial & Minero</span>
+            <span>Norma OSHA 1926.502</span>
+          </div>
+          <h3 class="project-full-card__title">LÍNEAS DE VIDA EN CUBIERTAS INDUSTRIALES</h3>
+          <p class="project-full-card__desc">
+            Montaje de 320 metros lineales de cable de acero inoxidable con absorbedores dinámicos de energía para tránsito seguro del personal de mantención en cubiertas de naves de almacenamiento.
+          </p>
+          <div class="project-full-card__specs">
+            <div class="project-spec-item">
+              <strong>Ubicación:</strong>
+              <span>Región Metropolitana</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Longitud:</strong>
+              <span>320 metros lineales</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Usuarios Simultáneos:</strong>
+              <span>Hasta 3 operarios por tramo</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Garantía:</strong>
+              <span>5 años + Recertificación</span>
+            </div>
+          </div>
+          <a href="contacto.html?proyecto=lineas-industriales" class="service-deep-card__btn">
+            <span>Consultar Solución Similar</span>
+            <i class="ph-bold ph-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Proyecto 4: Redes Anticaídas en Obra Civil -->
+      <article class="project-full-card" data-category="redes">
+        <div class="project-full-card__media">
+          <img src="img/proyecto-4.jpeg" alt="Redes de seguridad y contención en obra civil" class="project-full-card__img" loading="lazy">
+        </div>
+        <div class="project-full-card__body">
+          <div class="project-full-card__meta">
+            <span>Construcción en Altura</span>
+            <span>Norma EN 1263-1</span>
+          </div>
+          <h3 class="project-full-card__title">REDES ANTICAÍDAS Y CONTENCIÓN DE ESCOMBROS</h3>
+          <p class="project-full-card__desc">
+            Instalación de sistema de protección colectiva Tipo V en voladizo perimetral de edificio en construcción de 22 pisos, previniendo caídas a distinto nivel y caída de herramientas a la vía pública.
+          </p>
+          <div class="project-full-card__specs">
+            <div class="project-spec-item">
+              <strong>Ubicación:</strong>
+              <span>Las Condes, Santiago</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Tipo de Red:</strong>
+              <span>Malla 100mm + micro-malla</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Superficie Protegida:</strong>
+              <span>1.800 m² perimetrales</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Inspección:</strong>
+              <span>Semanal con prevencionista</span>
+            </div>
+          </div>
+          <a href="contacto.html?proyecto=redes-obra-civil" class="service-deep-card__btn">
+            <span>Consultar Solución Similar</span>
+            <i class="ph-bold ph-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Proyecto 5: Diagnóstico y Reparación de Cornisas -->
+      <article class="project-full-card" data-category="mantenimiento">
+        <div class="project-full-card__media">
+          <img src="img/inspeccion.png" alt="Inspección y reparación de cornisas" class="project-full-card__img" loading="lazy">
+        </div>
+        <div class="project-full-card__body">
+          <div class="project-full-card__meta">
+            <span>Conservación Patrimonial</span>
+            <span>Ensayos NDT</span>
+          </div>
+          <h3 class="project-full-card__title">DIAGNÓSTICO Y REPARACIÓN DE CORNISAS</h3>
+          <p class="project-full-card__desc">
+            Inspección táctil y percusión de cornisas con riesgo inminente de desprendimiento en altura. Retiro seguro de revoque suelto, tratamiento de enfierradura y reparación con morteros tixotrópicos.
+          </p>
+          <div class="project-full-card__specs">
+            <div class="project-spec-item">
+              <strong>Ubicación:</strong>
+              <span>Santiago Patrimonial</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Método:</strong>
+              <span>Acceso Vertical Cuerdas</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Riesgo Mitigado:</strong>
+              <span>Caída de material a acera</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Entregable:</strong>
+              <span>Informe técnico estructural</span>
+            </div>
+          </div>
+          <a href="contacto.html?proyecto=reparacion-cornisas" class="service-deep-card__btn">
+            <span>Consultar Solución Similar</span>
+            <i class="ph-bold ph-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Proyecto 6: Lavado Técnico de Muros Cortina -->
+      <article class="project-full-card" data-category="mantenimiento">
+        <div class="project-full-card__media">
+          <img src="img/galeria-1.jpg" alt="Mantenimiento y limpieza de muros cortina" class="project-full-card__img" loading="lazy">
+        </div>
+        <div class="project-full-card__body">
+          <div class="project-full-card__meta">
+            <span>Edificación en Altura</span>
+            <span>Mantenimiento Preventivo</span>
+          </div>
+          <h3 class="project-full-card__title">MANTENCIÓN Y LAVADO DE MURO CORTINA CORPORATIVO</h3>
+          <p class="project-full-card__desc">
+            Servicio periódico de limpieza técnica profunda y reposición de sellos de estanqueidad en torre corporativa de 28 pisos. Uso de desmineralizadores y productos ecológicos que no degradan el aluminio.
+          </p>
+          <div class="project-full-card__specs">
+            <div class="project-spec-item">
+              <strong>Ubicación:</strong>
+              <span>Providencia, Santiago</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Cristales Tratados:</strong>
+              <span>Más de 4.500 m²</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Seguridad:</strong>
+              <span>Doble anclaje autónomo</span>
+            </div>
+            <div class="project-spec-item">
+              <strong>Frecuencia:</strong>
+              <span>Servicio semestral preventivo</span>
+            </div>
+          </div>
+          <a href="contacto.html?proyecto=muro-cortina" class="service-deep-card__btn">
+            <span>Consultar Solución Similar</span>
+            <i class="ph-bold ph-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- CTA BANNER DIRECTO -->
+    <section class="cta-banner" style="margin-top: 60px;">
+      <div class="cta-banner-card">
+        <div class="cta-banner__content">
+          <span class="cta-tag"><i class="ph-bold ph-check-circle"></i> Casos Reales Verificables</span>
+          <h2 class="cta-title">¿TIENES UN PROYECTO <span>COMPLEJO EN ALTURA</span>?</h2>
+          <p class="cta-desc">
+            Evaluamos la factibilidad técnica y económica de tu faena. Consulta directamente con Javier para coordinar un levantamiento en terreno.
+          </p>
+        </div>
+        <div class="cta-banner__actions">
+          <a href="https://api.whatsapp.com/send?phone=56994175680&text=Hola%20Javier,%20tengo%20un%20proyecto%20en%20altura%20y%20necesito%20evaluaci%C3%B3n." target="_blank" rel="noopener" class="btn btn--whatsapp">
+            <i class="ph-fill ph-whatsapp-logo"></i> Chatear con Javier
+          </a>
+          <a href="contacto.html" class="btn btn--primary">
+            <i class="ph-bold ph-calendar-plus"></i> Solicitar Evaluación
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CORPORATE FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="footer__top">
+      
+      <!-- Col 1: Brand & Overview -->
+      <div class="footer__col footer__col--brand">
+        <a href="index.html" class="footer__brand" aria-label="Line Clean FBV Inicio">
+          <img src="img/logo.png" alt="Logo LineClean FBV" class="footer__logo">
+          <span class="footer__brand-text">Line Clean <span>FBV</span></span>
+        </a>
+        <p class="footer__tagline">
+          Especialistas en ingeniería de seguridad en altura, montaje y certificación de líneas de vida, acceso por cuerdas y mantenimiento técnico industrial en Santiago y todo Chile.
+        </p>
+        <div class="footer__socials">
+          <a href="https://api.whatsapp.com/send?phone=56994175680" target="_blank" rel="noopener" aria-label="WhatsApp Oficial"><i class="ph-fill ph-whatsapp-logo"></i></a>
+          <a href="mailto:javier@linecleanfbv.cl" aria-label="Enviar correo a Javier"><i class="ph-bold ph-envelope-simple"></i></a>
+          <a href="tel:+56994175680" aria-label="Llamar por teléfono comercial"><i class="ph-bold ph-phone-call"></i></a>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <div class="footer__col">
+        <h4 class="footer__heading">Navegación</h4>
+        <ul class="footer__links">
+          <li><a href="index.html"><i class="ph-bold ph-caret-right"></i> Inicio</a></li>
+          <li><a href="servicios.html"><i class="ph-bold ph-caret-right"></i> Servicios Especializados</a></li>
+          <li><a href="empresa.html"><i class="ph-bold ph-caret-right"></i> Empresa & Seguridad</a></li>
+          <li><a href="proyectos.html"><i class="ph-bold ph-caret-right"></i> Portafolio de Proyectos</a></li>
+          <li><a href="certificaciones.html"><i class="ph-bold ph-caret-right"></i> Normativas & Certificaciones</a></li>
+          <li><a href="contacto.html"><i class="ph-bold ph-caret-right"></i> Contacto & Cotización</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Official Contact Channels -->
+      <div class="footer__col">
+        <h4 class="footer__heading">Contacto Oficial</h4>
+        <ul class="footer__contact-list">
+          <li>
+            <i class="ph-bold ph-phone"></i>
+            <div>
+              <strong>Teléfono:</strong>
+              <a href="tel:+56994175680">+56 9 9417 5680</a>
+            </div>
+          </li>
+          <li>
+            <i class="ph-bold ph-whatsapp-logo"></i>
+            <div>
+              <strong>WhatsApp:</strong>
+              <a href="https://api.whatsapp.com/send?phone=56994175680" target="_blank" rel="noopener">+56 9 9417 5680</a>
+            </div>
+          </li>
+          <li>
+            <i class="ph-bold ph-envelope"></i>
+            <div>
+              <strong>Correo Oficial:</strong>
+              <a href="mailto:javier@linecleanfbv.cl">javier@linecleanfbv.cl</a>
+            </div>
+          </li>
+          <li>
+            <i class="ph-bold ph-map-pin"></i>
+            <div>
+              <strong>Oficinas:</strong>
+              <span>El Comendador 2197, Conchalí, Santiago</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Compliance & Normative Affiliations -->
+      <div class="footer__col">
+        <h4 class="footer__heading">Normativas & Afiliaciones</h4>
+        <p class="footer__compliance-text">
+          Procedimientos operacionales estandarizados y adheridos a los principales organismos de prevención y normativa técnica:
+        </p>
+        <div class="compliance-badges">
+          <div class="compliance-badge" title="Asociación Chilena de Trabajo en Altura">
+            <i class="ph-bold ph-shield-check"></i>
+            <div>
+              <strong>ACTA Chile</strong>
+              <span>Acceso por Cuerdas</span>
+            </div>
+          </div>
+          <div class="compliance-badge" title="Instituto de Seguridad del Trabajo">
+            <i class="ph-bold ph-first-aid"></i>
+            <div>
+              <strong>IST</strong>
+              <span>Adherente Prevención</span>
+            </div>
+          </div>
+          <div class="compliance-badge" title="Servicio Nacional de Capacitación y Empleo">
+            <i class="ph-bold ph-certificate"></i>
+            <div>
+              <strong>SENCE</strong>
+              <span>Capacitación Técnica</span>
+            </div>
+          </div>
+          <div class="compliance-badge" title="Instituto de Seguridad Laboral">
+            <i class="ph-bold ph-buildings"></i>
+            <div>
+              <strong>ISL</strong>
+              <span>Seguridad Laboral</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer__bottom">
+      <div class="footer__bottom-container">
+        <p class="footer__copyright">
+          &copy; <span id="year">2026</span> Line Clean FBV. Todos los derechos reservados.
+        </p>
+        <div class="footer__legal">
+          <span>Ingeniería en Altura & Seguridad Industrial</span>
+          <span class="sep">•</span>
+          <span>Santiago, Chile</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a href="https://api.whatsapp.com/send?phone=56994175680&text=Hola%20LineClean%20FBV,%20necesito%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20en%20altura." 
+     class="floating-whatsapp" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Contactar por WhatsApp a LineClean FBV">
+    <span class="floating-whatsapp__tooltip">¡Cotiza por WhatsApp!</span>
+    <div class="floating-whatsapp__icon-box">
+      <i class="ph-fill ph-whatsapp-logo"></i>
+    </div>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Simple filter functionality for projects
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterBtns = document.querySelectorAll('.project-filter__btn');
+      const cards = document.querySelectorAll('.project-full-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filter = btn.getAttribute('data-filter');
+          cards.forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

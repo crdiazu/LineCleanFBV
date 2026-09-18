@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "LineClean FBV — Arquitectura del Proyecto",
+    "subtitle": "Sitio web estático + base de conocimiento + pipeline de assets",
+    "output": "lineclean-architecture.html",
+    "quality_profile": "showcase",
+    "views": [
+      { "id": "production", "label": "Ruta de producción", "focus": ["vercel", "frontend", "cdn"], "note": "Sitio estático servido desde Vercel Edge Network" },
+      { "id": "knowledge", "label": "Gestión de conocimiento", "focus": ["obsidian", "project-docs", "documentacion"], "note": "Vault Obsidian como single source of truth" },
+      { "id": "assets", "label": "Pipeline de assets", "focus": ["raw-assets", "public-img", "public-css-js"], "note": "Assets crudos → optimizados → deploy" }
+    ]
+  },
+  "components": [
+    { "id": "vercel", "type": "cloud", "label": "Vercel", "sublabel": "Edge Network + Deploy", "pos": [600, 100], "size": [160, 70], "tag": "https://public-ruby-psi-56.vercel.app" },
+    { "id": "frontend", "type": "frontend", "label": "Sitio Web Estático", "sublabel": "HTML/CSS/JS vanilla", "pos": [400, 220], "size": [180, 70] },
+    { "id": "cdn", "type": "cloud", "label": "Vercel CDN", "sublabel": "Cache global + Compresión", "pos": [600, 220], "size": [160, 70] },
+    { "id": "public-img", "type": "frontend", "label": "Assets Optimizados", "sublabel": "img/ (WebP, AVIF)", "pos": [400, 340], "size": [160, 70] },
+    { "id": "public-css-js", "type": "frontend", "label": "CSS / JS Bundles", "sublabel": "style.css + main.js", "pos": [600, 340], "size": [160, 70] },
+    { "id": "raw-assets", "type": "external", "label": "Raw Assets", "sublabel": "fotos, logos, diseños", "pos": [180, 340], "size": [160, 70] },
+    { "id": "obsidian", "type": "database", "label": "Obsidian Vault", "sublabel": "Knowledge Base", "pos": [180, 100], "size": [160, 70] },
+    { "id": "project-docs", "type": "database", "label": "Project Docs", "sublabel": "SEO, Marketing, Cliente", "pos": [180, 180], "size": [160, 70] },
+    { "id": "documentacion", "type": "database", "label": "Documentación Técnica", "sublabel": "PROJECT, STATUS, TESTS", "pos": [180, 260], "size": [160, 70] },
+    { "id": "archive", "type": "external", "label": "Archive / Legacy", "sublabel": "Backups + Proyectos viejos", "pos": [180, 420], "size": [160, 70] },
+    { "id": "excalidraw", "type": "external", "label": "Excalidraw", "sublabel": "Diagramas visuales", "pos": [400, 100], "size": [160, 70] },
+    { "id": "firebase", "type": "cloud", "label": "Firebase Hosting", "sublabel": "Config legacy (archivado)", "pos": [800, 100], "size": [160, 70], "tag": "Legado" },
+    { "id": "dns", "type": "external", "label": "DNS / Dominio", "sublabel": "linecleanfbv.cl", "pos": [800, 220], "size": [160, 70] },
+    { "id": "analytics", "type": "external", "label": "Analytics / SEO", "sublabel": "Search Console, GA4", "pos": [800, 340], "size": [160, 70] }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "Producción (Vercel)", "wraps": ["vercel", "cdn", "frontend", "public-img", "public-css-js"], "pad": 16 },
+    { "kind": "region", "label": "Gestión de Conocimiento (Obsidian)", "wraps": ["obsidian", "project-docs", "documentacion", "excalidraw"], "pad": 16 },
+    { "kind": "region", "label": "Pipeline de Assets", "wraps": ["raw-assets", "public-img"], "pad": 16 },
+    { "kind": "security-group", "label": "Dominio + Analytics", "wraps": ["dns", "analytics"], "pad": 12 }
+  ],
+  "connections": [
+    { "id": "deploy", "from": "frontend", "to": "vercel", "label": "Deploy automático", "variant": "emphasis" },
+    { "id": "cdn-serves", "from": "vercel", "to": "cdn", "label": "Sirve desde Edge" },
+    { "id": "cdn-to-frontend", "from": "cdn", "to": "frontend", "label": "HTML/CSS/JS" },
+    { "id": "cdn-to-img", "from": "cdn", "to": "public-img", "label": "Imágenes optimizadas", "variant": "dashed" },
+    { "id": "cdn-to-css-js", "from": "cdn", "to": "public-css-js", "label": "CSS/JS minificados", "variant": "dashed" },
+    { "id": "assets-to-img", "from": "raw-assets", "to": "public-img", "label": "Optimización manual", "variant": "dashed" },
+    { "id": "obsidian-to-docs", "from": "obsidian", "to": "project-docs", "label": "Fuente de contenido" },
+    { "id": "docs-to-frontend", "from": "project-docs", "to": "frontend", "label": "Copy + SEO + Estructura" },
+    { "id": "tech-docs", "from": "documentacion", "to": "frontend", "label": "Especificaciones técnicas" },
+    { "id": "excalidraw-to-docs", "from": "excalidraw", "to": "project-docs", "label": "Diagramas → Documentos" },
+    { "id": "archive-to-raw", "from": "archive", "to": "raw-assets", "label": "Recuperación de assets" },
+    { "id": "dns-to-vercel", "from": "dns", "to": "vercel", "label": "CNAME → Vercel", "variant": "emphasis" },
+    { "id": "analytics-from-cdn", "from": "cdn", "to": "analytics", "label": "Eventos + Métricas", "variant": "dashed" },
+    { "id": "firebase-legacy", "from": "firebase", "to": "vercel", "label": "Migración completada", "variant": "dashed" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Producción", "items": ["Sitio 100% estático (sin backend)", "Deploy en Vercel Edge Network", "CDN global con compresión Brotli", "Dominio personalizado: linecleanfbv.cl"] },
+    { "dot": "emerald", "title": "Conocimiento", "items": ["Vault Obsidian como fuente única", "Plugins: Dataview, Kanban, Excalidraw", "Docs técnicas + SEO + Marketing", "Diagramas visuales embebidos"] },
+    { "dot": "amber", "title": "Assets", "items": ["Raw: fotos RAW, logos SVG, diseños", "Optimización manual a WebP/AVIF", "Hero image 2.5MB → optimizado", "Estructura: img/ + css/ + js/"] },
+    { "dot": "rose", "title": "Legado", "items": ["Firebase Hosting (migración completa)", "Proyectos legacy archivados", "Credenciales segregadas", "Backups versionados en /archive"] }
+  ]
+}

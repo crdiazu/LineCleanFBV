@@ -25,9 +25,11 @@ backup_*/
 
 # Sensitive credentials (kept for reference, never pushed)
 archive/credenciales/
+documentacion/credenciales/
 
 # Copilot conversations (private)
 copilot/
+.copilot/
 
 # Deploy caches
 hosting..cache

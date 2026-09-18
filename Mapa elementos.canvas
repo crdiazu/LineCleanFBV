@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"7249978c2a85a1a9","type":"text","text":"# CONTACTO WHATAPP","x":1568,"y":-504,"width":312,"height":64},
+		{"id":"2f3d80ed19f6fba3","x":-653,"y":-1025,"width":379,"height":50,"type":"text","text":"# IMAGEN DE MARCA"},
+		{"id":"5e737ccd53e6ba7e","type":"text","text":"## HOSTING \n","x":-1565,"y":-480,"width":250,"height":60},
+		{"id":"39b6f9e9d9c63759","type":"file","file":"GLOBALHOST - HOSTING PARA EL CORREO.md","x":-1640,"y":-220,"width":400,"height":400},
+		{"id":"8f477dbfcf49c9dc","type":"file","file":"CPANEL -  administracion del correo.md","x":-1640,"y":320,"width":400,"height":300},
+		{"id":"1ef27a7491d05187","type":"file","file":"Correo javier@linecleanfbv.cl.md","x":-1640,"y":800,"width":400,"height":400},
+		{"id":"ba9cdb32d05e0951","type":"file","file":"project_docs/Wordpress.md","x":-1120,"y":680,"width":320,"height":120,"color":"4"},
+		{"id":"7666e7b7e51b1a4f","type":"file","file":"archive/credenciales/FBV  - clave Wordpress.md","x":-1160,"y":1000,"width":400,"height":400},
+		{"id":"d24fc2eb7f2636d2","type":"text","text":"## VERCEL","x":-1085,"y":-220,"width":250,"height":60},
+		{"id":"6ce9c9754b306493","type":"file","file":"archive/credenciales/NIC CHILE - linecleanfbv.md","x":-338,"y":-420,"width":400,"height":260},
+		{"id":"c0bf9268fa847f40","type":"file","file":"project_docs/LINECLEAN FBV - PROYECTO.md","x":-1640,"y":-1200,"width":400,"height":400},
+		{"id":"c98d31c8fbbccfbe","type":"text","text":"# NOMBRE","x":-302,"y":-865,"width":329,"height":130},
+		{"id":"fe549e9a255f575e","type":"text","text":"## CLOUDFLARE","x":-713,"y":90,"width":250,"height":90},
+		{"id":"c336d7e6288ea4ea","type":"text","text":"## GITHUB","x":440,"y":-480,"width":250,"height":320},
+		{"id":"d6e8a73af49d6933","x":440,"y":-800,"width":250,"height":60,"type":"text","text":"# REDES SOCIALES"},
+		{"id":"78e9bd4d2dd6d5c8","type":"file","file":"archive/backup_linecleanfbv/contenido/pagina_inicio.md","x":690,"y":680,"width":400,"height":400},
+		{"id":"a3bed1eda5a8fd56","type":"text","text":"# PAGINA WEB","x":440,"y":135,"width":250,"height":260}
+	],
+	"edges":[
+		{"id":"1b451ff7811c7e8e","fromNode":"ba9cdb32d05e0951","fromSide":"bottom","toNode":"7666e7b7e51b1a4f","toSide":"top"},
+		{"id":"9104b64267e17d1e","fromNode":"8f477dbfcf49c9dc","fromSide":"right","toNode":"ba9cdb32d05e0951","toSide":"top","color":"1"},
+		{"id":"f59f4cd41295b49a","fromNode":"6ce9c9754b306493","fromSide":"right","toNode":"a3bed1eda5a8fd56","toSide":"left"},
+		{"id":"d05d62e74390a78c","fromNode":"c0bf9268fa847f40","fromSide":"bottom","toNode":"5e737ccd53e6ba7e","toSide":"top","label":"Backend"},
+		{"id":"3307fba94d1246ac","fromNode":"5e737ccd53e6ba7e","fromSide":"bottom","toNode":"39b6f9e9d9c63759","toSide":"top"},
+		{"id":"096b898b54bd67bc","fromNode":"8f477dbfcf49c9dc","fromSide":"bottom","toNode":"1ef27a7491d05187","toSide":"top"},
+		{"id":"0ee34e3b231a657b","fromNode":"c0bf9268fa847f40","fromSide":"right","toNode":"2f3d80ed19f6fba3","toSide":"left","label":"Marketing"},
+		{"id":"e3e1e78754094458","fromNode":"2f3d80ed19f6fba3","fromSide":"right","toNode":"c98d31c8fbbccfbe","toSide":"top"},
+		{"id":"8c33b3e5f3ae1615","fromNode":"c98d31c8fbbccfbe","fromSide":"bottom","toNode":"d6e8a73af49d6933","toSide":"top"},
+		{"id":"39b251e31c2162ef","fromNode":"c98d31c8fbbccfbe","fromSide":"bottom","toNode":"6ce9c9754b306493","toSide":"top"},
+		{"id":"80a3702d6e125613","fromNode":"5e737ccd53e6ba7e","fromSide":"bottom","toNode":"d24fc2eb7f2636d2","toSide":"top"},
+		{"id":"3982b30bd578673f","fromNode":"39b6f9e9d9c63759","fromSide":"bottom","toNode":"8f477dbfcf49c9dc","toSide":"top"},
+		{"id":"3be32008630a925f","fromNode":"fe549e9a255f575e","fromSide":"bottom","toNode":"8f477dbfcf49c9dc","toSide":"right"},
+		{"id":"be334aca5f963aed","fromNode":"fe549e9a255f575e","fromSide":"bottom","toNode":"a3bed1eda5a8fd56","toSide":"left"},
+		{"id":"cc77d683b85a61a3","fromNode":"6ce9c9754b306493","fromSide":"bottom","toNode":"fe549e9a255f575e","toSide":"top"},
+		{"id":"e7c91dbe3ab452a1","fromNode":"d24fc2eb7f2636d2","fromSide":"bottom","toNode":"fe549e9a255f575e","toSide":"top"},
+		{"id":"b1505abb7e20cd82","fromNode":"a3bed1eda5a8fd56","fromSide":"bottom","toNode":"78e9bd4d2dd6d5c8","toSide":"top"}
+	]
+}
